@@ -1,0 +1,5 @@
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+.\bin\windows\kafka-topics.bat --create --topic scrap -bootstrap-server localhost:9092
+.\bin\windows\kafka-console-producer.bat --topic scrap --bootstrap-server localhost:9092
+.\bin\windows\kafka-console-consumer.bat --topic scrap --from-beginning --bootstrap-server localhost:9092

@@ -1,0 +1,5 @@
+run zookeeper on terminal
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+run kafka server on terminal 
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+run the scrapper , kafka consumer and kafka producer 
