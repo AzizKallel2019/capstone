@@ -1,7 +1,0 @@
-Load earlier flights,,,,,,,Imperial Municipal Airport(IML/KIML)
-Loading...,,,,,,,Imperial Municipal Airport(IML/KIML)
-"Sorry, we don't have any information about flights for this airport",,,,,,,Imperial Municipal Airport(IML/KIML)
-{{objFlight.flight.status.generic.eventTime.utc * 1000 || '' | date: timeFormat: timeZone}} {{objFlight.flight.time.scheduled.arrival * 1000 || '-' | date: timeFormat : timeZone}} {{objFlight.flight.identification.number.default}} {{objFlight.flight.airport.origin.position.region.city}} ({{objFlight.flight.airport.origin.code.iata}}) {{objFlight.flight.aircraft.model.code || '-'}}{{objFlight.flight.aircraft.registration}}{{objFlight.flight.airline.name}} -,,,,,,,Imperial Municipal Airport(IML/KIML)
-{{objFlight.flight.time.scheduled.arrival * 1000 || '-' | date: timeFormat : timeZone}},{{objFlight.flight.identification.number.default}},{{objFlight.flight.airport.origin.position.region.city}} ({{objFlight.flight.airport.origin.code.iata}})-,{{objFlight.flight.airline.name}} -,{{objFlight.flight.aircraft.model.code}} ({{objFlight.flight.aircraft.registration}}) -,,{{objFlight.flight.status.generic.eventTime.utc * 1000 || '' | date: timeFormat: timeZone}},Imperial Municipal Airport(IML/KIML)
-Load later flights,,,,,,,Imperial Municipal Airport(IML/KIML)
-* All times are in {{(airportView.schedule.arrivals.data && timeZone.toUpperCase() == 'UTC' ? 'UTC' : 'local')}} timezone,,,,,,,Imperial Municipal Airport(IML/KIML)

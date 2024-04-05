@@ -1,7 +1,0 @@
-Load earlier flights,,,,,,,Farmingdale Republic Airport(FRG/KFRG)
-Loading...,,,,,,,Farmingdale Republic Airport(FRG/KFRG)
-"Sorry, we don't have any information about flights for this airport",,,,,,,Farmingdale Republic Airport(FRG/KFRG)
-{{objFlight.flight.status.generic.eventTime.utc * 1000 || '' | date: timeFormat: timeZone}} {{objFlight.flight.time.scheduled.arrival * 1000 || '-' | date: timeFormat : timeZone}} {{objFlight.flight.identification.number.default}} {{objFlight.flight.airport.origin.position.region.city}} ({{objFlight.flight.airport.origin.code.iata}}) {{objFlight.flight.aircraft.model.code || '-'}}{{objFlight.flight.aircraft.registration}}{{objFlight.flight.airline.name}} -,,,,,,,Farmingdale Republic Airport(FRG/KFRG)
-{{objFlight.flight.time.scheduled.arrival * 1000 || '-' | date: timeFormat : timeZone}},{{objFlight.flight.identification.number.default}},{{objFlight.flight.airport.origin.position.region.city}} ({{objFlight.flight.airport.origin.code.iata}})-,{{objFlight.flight.airline.name}} -,{{objFlight.flight.aircraft.model.code}} ({{objFlight.flight.aircraft.registration}}) -,,{{objFlight.flight.status.generic.eventTime.utc * 1000 || '' | date: timeFormat: timeZone}},Farmingdale Republic Airport(FRG/KFRG)
-Load later flights,,,,,,,Farmingdale Republic Airport(FRG/KFRG)
-* All times are in {{(airportView.schedule.arrivals.data && timeZone.toUpperCase() == 'UTC' ? 'UTC' : 'local')}} timezone,,,,,,,Farmingdale Republic Airport(FRG/KFRG)
